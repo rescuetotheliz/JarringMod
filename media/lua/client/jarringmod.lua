@@ -7,9 +7,11 @@ end
 
 function CreateJarringTools()
 	print ("[JarringMod] Trying to create objects");
-	local x = getPlayer():getX();
-	local y = getPlayer():getY();
-	local z = getPlayer():getZ();
+	local player = getPlayer();
+
+	local x = player:getX();
+	local y = player:getY();
+	local z = player:getZ();
 
 	--print ("[JarringMod] X, Y, Z are " + x + ", " + y + ", " + z);
 	local square = getCell():getOrCreateGridSquare(x, y, z);
