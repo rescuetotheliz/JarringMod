@@ -1,0 +1,41 @@
+module Base
+{
+    recipe Jar Lid
+    {
+        keep BallPeenHammer,
+        keep Wrench,
+        ScrapMetal,
+
+        CanBeDoneFromFloor:true,
+        Category:Cooking,
+        NeedToBeLearn:False,
+        StopOnWalk:true,
+        StopOnRun:true,
+        //OnCreate:Recipe.OnCreate.JarLid,
+
+        Result:JarLid=0,
+        Sound:PutItemInBag,
+        Time:450.0,
+    }
+
+    recipe Empty Jar
+    {
+        keep BlowTorch,
+        keep WeldingMask,
+        Sandbag,
+        Water=50,
+
+        CanBeDoneFromFloor:true,
+        Category:Cooking,
+        NeedToBeLearn:False,
+        Prop1:BlowTorch,
+        SkillRequired:MetalWelding=3,
+        StopOnWalk:true,
+        StopOnRun:true,
+        //OnCreate:Recipe.OnCreate.EmptyJar,
+        
+		Result:EmptyJar=0,
+        Sound:PutItemInBag,
+        Time:500.0,
+    }
+}

@@ -40,6 +40,55 @@ end
 
 Events.OnGameStart.Add(initJars);
 
+-- region 42
+-- module improvedCanning
+-- {
+-- 	craftRecipe JarLid
+-- 	{
+-- 		time = 100,
+-- 		inputs
+-- 		{
+-- 			--item 1 flags[hasMetal]
+-- 				--metal
+-- 		}
+-- 		-- Add RNG logic to determine if it succeeded or not
+-- 		outputs
+-- 		{
+
+-- 		}
+
+-- 	}
+
+-- 	craftRecipe EmptyJar
+-- 	{
+
+-- 	}
+-- }
+-- end region
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- if isClient() then
 -- 	print ("[JarringMod] is client");
 
