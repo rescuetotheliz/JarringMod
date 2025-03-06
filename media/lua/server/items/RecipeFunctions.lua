@@ -21,7 +21,8 @@ function Recipe.OnCreate.JarLid(items, result, player)
 end
 
 function Recipe.OnGiveXP.JarLid(recipe, ingredients, result, player)
-	player:AddXP(Perks.MetalWelding, 1);
+	print("Adding XP");
+	player:getXp():AddXP(Perks.MetalWelding, 1);
 end
 
 function Recipe.OnCreate.EmptyJar(items, result, player)
@@ -46,5 +47,6 @@ function Recipe.OnCreate.EmptyJar(items, result, player)
 end
 
 function Recipe.OnGiveXP.EmptyJar(recipe, ingredients, result, player)
-	player:AddXP(Perks.MetalWelding, 1);
+	print("Adding XP");
+	player:getXp():AddXP(Perks.MetalWelding, 1);
 end

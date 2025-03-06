@@ -13,6 +13,7 @@ module Base
         StopOnRun:true,
 
         OnCreate:Recipe.OnCreate.JarLid,
+        OnGiveXP:Recipe.OnGiveXP.JarLid,
         Result:JarLid,
         RemoveResultItem:true,
         Sound:PutItemInBag,
@@ -35,6 +36,7 @@ module Base
         StopOnRun:true,
 
         OnCreate:Recipe.OnCreate.EmptyJar,
+        OnGiveXP:Recipe.OnGiveXP.EmptyJar,
 		Result:EmptyJar,
         RemoveResultItem:true,
         Sound:PutItemInBag,
