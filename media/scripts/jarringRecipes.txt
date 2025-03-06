@@ -11,11 +11,12 @@ module Base
         NeedToBeLearn:False,
         StopOnWalk:true,
         StopOnRun:true,
-        //OnCreate:Recipe.OnCreate.JarLid,
 
-        Result:JarLid=0,
+        OnCreate:Recipe.OnCreate.JarLid,
+        Result:JarLid,
+        RemoveResultItem:true,
         Sound:PutItemInBag,
-        Time:450.0,
+        Time:45.0,
     }
 
     recipe Empty Jar
@@ -32,10 +33,11 @@ module Base
         SkillRequired:MetalWelding=3,
         StopOnWalk:true,
         StopOnRun:true,
-        //OnCreate:Recipe.OnCreate.EmptyJar,
-        
-		Result:EmptyJar=0,
+
+        OnCreate:Recipe.OnCreate.EmptyJar,
+		Result:EmptyJar,
+        RemoveResultItem:true,
         Sound:PutItemInBag,
-        Time:500.0,
+        Time:50.0,
     }
 }
