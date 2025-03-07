@@ -10,11 +10,16 @@ function Recipe.OnCreate.JarLid(items, result, player)
 			print("Added jarLid");
 		end
 	elseif (weldingLevel < 4) then
-		if chance > 4 then
+		if chance > 6 then
 			player:getInventory():AddItem(jarLid);
 			print("Added jarLid");
 		end
 	elseif (weldingLevel < 6) then
+		if chance > 4 then
+			player:getInventory():AddItem(jarLid);
+			print("Added jarLid");
+		end
+	else
 		player:getInventory():AddItem(jarLid);
 		print("Added jarLid");
 	end
@@ -36,11 +41,16 @@ function Recipe.OnCreate.EmptyJar(items, result, player)
 			print("Added emptyJar");
 		end
 	elseif (weldingLevel < 4) then
-		if chance > 4 then
+		if chance > 6 then
 			player:getInventory():AddItem(emptyJar);
 			print("Added emptyJar");
 		end
 	elseif (weldingLevel < 6) then
+		if chance > 4 then
+			player:getInventory():AddItem(emptyJar);
+			print("Added emptyJar");
+		end
+	else
 		player:getInventory():AddItem(emptyJar);
 		print("Added emptyJar");
 	end
