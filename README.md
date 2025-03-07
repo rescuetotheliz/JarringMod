@@ -34,7 +34,7 @@ Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sand
 > - C:/Users/Liz
 >   - Zomboid
 >       - mods
->           -JarringMod
+>           - JarringMod
 >               - media
 >               - LICENSE
 >               - mod.info
