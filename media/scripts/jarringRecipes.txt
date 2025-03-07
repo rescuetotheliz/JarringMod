@@ -1,4 +1,4 @@
-module Base
+module JarringRecipes
 {
     imports    
     {
@@ -7,8 +7,10 @@ module Base
     
     model VinegarStarter
     {
-        mesh = food/VinegarStarter,
+        mesh = WorldItems/Vinegar,
         texture = food/VinegarStarter,
+		scale = 0.4,
+
     }
 
     item VinegarStarter
@@ -17,9 +19,10 @@ module Base
         DisplayCategory = Food,
         Type = Food,
         Weight = 0.3,
-        Icon = VinegarStarter,
+        Icon = food/VinegarStarter,
         CantEat = True,
         Packaged = True,
+        StaticModel = VinegarStarter,
         WorldStaticModel = VinegarStarter,
         DisplayCategory = Food,
     }
