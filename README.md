@@ -2,8 +2,7 @@
 Project Zomboid Jarring Mod
 
 ## Mod description
-This mod adds recipes for jars and jar lids
-Both recipes are known immediately, but you cannot create empty jar until you have level 3 welding.
+This mod adds recipes for jars and jar lids. Both recipes are known immediately, but you cannot create empty jar until you have level 3 welding.
 
 ### Jar Lid:
 Requires Ball Peen Hammer, Wrench, and Scrap Metal. Will consume scrap metal.
