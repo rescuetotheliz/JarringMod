@@ -29,8 +29,8 @@ Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sand
 #### Windows
 - Download or git clone repo. Unzip if downloaded.
 - Navigate to your user specific Zomboid mods folder using one of these methods:
-    1 %AppData%\..\Zomboid\mods
-    2 C:\Users\[Your user name]\Zomboid\mods
+    1. %AppData%\..\Zomboid\mods
+    2. C:\Users\[Your user name]\Zomboid\mods
 - Place JarringMod at that level so that it looks like this
 > - C
 >   - Users
