@@ -1,4 +1,4 @@
-# JarringMod
+# Jarring Mod
 Project Zomboid Jarring Mod
 
 ## Mod description
@@ -38,9 +38,9 @@ Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sand
 >               - mods
 >                   -JarringMod
 >                       - media
->                        - LICENSE
->                        - mod.info
->                        - poster.png
+>                       - LICENSE
+>                       - mod.info
+>                       - poster.png
 
 ### Real install
 ** TODO: Add real install instructions **
