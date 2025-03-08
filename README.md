@@ -26,6 +26,8 @@ Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sand
 ## Install instructions
 ### Developer testing
 #### Windows - Single player
+<details>
+<summary>Install instructions</summary>
 - Download or git clone repo. Unzip if downloaded.
 - Navigate to your user specific Zomboid mods folder using one of these methods:
     1. %AppData%\\..\\..\Zomboid\mods
@@ -39,23 +41,36 @@ Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sand
 >               - LICENSE
 >               - mod.info
 >               - poster.png
+</details>
 
 #### Windows - Server
+<details>
+<summary>Install instructions</summary>
 - Download or git clone repo. Unzip if downloaded.
 - Navigate to your Zomboid mods workshop folder here:
-    - [Steam Install Location]\\steam apps\workshop\content\[game id]\12345\mods
+    - %AppData%\\..\\..\Zomboid\Workshop
+- Create a Contents folder, with a preview.png (You can steal this from another mod or the ModTemplate that comes with the game)
+- Create a mods folder within the Contents folder
 - Place JarringMod at that level so that it looks like this
-> - C:/SteamLibrary/steamapps/workshop/content/108600/
->   - 12345
->       - mods
+> - C:\Users\Liz
+>   - Zomboid
+>       - Workshop
 >           - JarringMod
->               - media
->               - LICENSE
->               - mod.info
->               - poster.png
+>               - Contents
+>                   - mods
+>                       - JarringMod
+>                           - media
+>                           - LICENSE
+>                           - mod.info
+>                           - poster.png
+</details>
 
 ### Real install
-** TODO: Add real install instructions **
+<details>
+<summary>Install instructions</summary>
+- Be my friend :)
+- Go to https://steamcommunity.com/sharedfiles/filedetails/?id=3440779943 and subscribe
+</details>
 
 ## References and thank yous
 ** TODO: Add them once I've culled them down a little **
