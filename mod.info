@@ -1,4 +1,5 @@
 name=JarringMod
 id=JarringMod
-description=Made a new mod.
+description=This mod adds recipes for jars and jar lids. Both recipes are known immediately, but you cannot create empty jar until you have level 3 welding. 
+description=If run in a server, everyone in server must have this mod installed to add the recipes.
 poster=poster.png

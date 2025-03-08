@@ -9,9 +9,9 @@ Requires Ball Peen Hammer, Wrench, and Scrap Metal. Will consume scrap metal.
 
 | Welding Level | Chance of success |
 | ------------- | ----------------- |
-| 0 - 1         | 10%               |
-| 2 - 3         | 40%               |
-| 4 - 5         | 60%               |
+| 0 - 1         | 20%               |
+| 2 - 3         | 50%               |
+| 4 - 5         | 70%               |
 | 6+            | 100%              |
 
 ### Empty Jar:
@@ -19,8 +19,8 @@ Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sand
 
 | Welding Level | Chance of success |
 | ------------- | ----------------- |
-| 3             | 40%               |
-| 4 - 5         | 60%               |
+| 3             | 50%               |
+| 4 - 5         | 70%               |
 | 6+            | 100%              |
 
 ## Install instructions
