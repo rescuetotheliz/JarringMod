@@ -3,6 +3,7 @@ Project Zomboid Jarring Mod
 
 ## Mod description
 This mod adds recipes for jars and jar lids. Both recipes are known immediately, but you cannot create empty jar until you have level 3 welding.
+Everyone in server must have this mod installed to add the recipes.
 
 ### Jar Lid:
 Requires Ball Peen Hammer, Wrench, and Scrap Metal. Will consume scrap metal.
@@ -28,7 +29,7 @@ Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sand
 #### Windows - Single player
 <details>
 <summary>Install instructions</summary>
-<div markdown=1>
+
 - Download or git clone repo. Unzip if downloaded.
 - Navigate to your user specific Zomboid mods folder using one of these methods:
     1. %AppData%\\..\\..\Zomboid\mods
@@ -42,13 +43,13 @@ Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sand
 >               - LICENSE
 >               - mod.info
 >               - poster.png
-</div>
+
 </details>
 
 #### Windows - Server
 <details>
 <summary>Install instructions</summary>
-<div markdown=1>
+
 - Download or git clone repo. Unzip if downloaded.
 - Navigate to your Zomboid mods workshop folder here:
     - %AppData%\\..\\..\Zomboid\Workshop
@@ -66,16 +67,16 @@ Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sand
 >                           - LICENSE
 >                           - mod.info
 >                           - poster.png
-</div>
+
 </details>
 
 ### Real install
 <details>
 <summary>Install instructions</summary>
-<div markdown=1>
+
 - Be my friend :)
 - Go to https://steamcommunity.com/sharedfiles/filedetails/?id=3440779943 and subscribe
-</div>
+
 </details>
 
 ## References and thank yous
