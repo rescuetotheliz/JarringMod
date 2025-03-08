@@ -60,3 +60,32 @@ function Recipe.OnGiveXP.EmptyJar(recipe, ingredients, result, player)
 	print("Adding XP");
 	player:getXp():AddXP(Perks.MetalWelding, 1);
 end
+
+function Recipe.GetItemTypes.Fruit(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("Fruit"))
+	addExistingItemType(scriptItems, "Apple")
+	addExistingItemType(scriptItems, "Avocado")
+	addExistingItemType(scriptItems, "Banana")
+	addExistingItemType(scriptItems, "BeautyBerry")
+	addExistingItemType(scriptItems, "BerryBlack")
+	addExistingItemType(scriptItems, "BerryPoisonIvy")
+	addExistingItemType(scriptItems, "BerryBlue")
+	addExistingItemType(scriptItems, "BerryGeneric1")
+	addExistingItemType(scriptItems, "BerryGeneric2")
+	addExistingItemType(scriptItems, "BerryGeneric3")
+	addExistingItemType(scriptItems, "BerryGeneric4")
+	addExistingItemType(scriptItems, "BerryGeneric5")
+	addExistingItemType(scriptItems, "Cherry")
+	addExistingItemType(scriptItems, "Lemon")
+	addExistingItemType(scriptItems, "Lime")
+	addExistingItemType(scriptItems, "Mango")
+	addExistingItemType(scriptItems, "Orange")
+	addExistingItemType(scriptItems, "Peach")
+	addExistingItemType(scriptItems, "Pear")
+	addExistingItemType(scriptItems, "Pineapple")
+	addExistingItemType(scriptItems, "Strawberrie")
+	addExistingItemType(scriptItems, "Watermelon")
+	addExistingItemType(scriptItems, "WatermelonSmashed")
+	addExistingItemType(scriptItems, "WatermelonSliced")
+	
+end

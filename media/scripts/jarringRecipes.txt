@@ -10,7 +10,6 @@ module JarringRecipes
         mesh = WorldItems/Vinegar,
         texture = food/VinegarStarter,
 		scale = 0.4,
-
     }
 
     item VinegarStarter
@@ -25,6 +24,23 @@ module JarringRecipes
         StaticModel = VinegarStarter,
         WorldStaticModel = VinegarStarter,
         DisplayCategory = Food,
+    }
+
+    recipe Vinegar Starter
+    {
+        keep WaterPot=20,
+        [Recipe.GetItemTypes.Sugar],
+        Apple/Avocado/Banana/BeautyBerry/BerryBlack/BerryPoisonIvy/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/Cherry/Lemon/Lime/Mango/Orange/Peach/Pear/Pineapple/Strawberrie/Watermelon/WatermelonSmashed/WatermelonSliced,
+
+        CanBeDoneFromFloor:true,
+        Category:Cooking,
+        NeedToBeLearn:False,
+        StopOnWalk:true,
+        StopOnRun:true,
+
+        Result:JarringRecipes.VinegarStarter,
+        Sound:PutItemInBag,
+        Time:45.0,
     }
 
     recipe Jar Lid
