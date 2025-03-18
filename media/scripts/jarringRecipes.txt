@@ -24,6 +24,7 @@ module Base
     {
         keep BlowTorch,
         keep WeldingMask,
+        keep LeadPipe/MetalPipe,
         Sandbag,
         Water=50,
 

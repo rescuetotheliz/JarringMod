@@ -16,7 +16,7 @@ Requires Ball Peen Hammer, Wrench, and Scrap Metal. Will consume scrap metal.
 | 6+            | 100%              |
 
 ### Empty Jar:
-Requires Blow Torch, Welding Mask, Sandbag, 50 units of Water. Will consume Sandbag (produces empty bag) and consumes water.
+Requires Blow Torch, Welding Mask, Sandbag, Pipe (either metal or lead), 50 units of Water. Will consume Sandbag (produces empty bag) and consumes water.
 
 | Welding Level | Chance of success |
 | ------------- | ----------------- |
